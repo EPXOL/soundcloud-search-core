@@ -1,0 +1,8 @@
+{
+  "name": "soudcloud-search-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": ["soudcloud", "soudcloud-search", "search"],
+  "author": "EPXOL",
+  "license": "MIT"
+}
