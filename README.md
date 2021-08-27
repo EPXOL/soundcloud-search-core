@@ -1,8 +1,6 @@
-# soundcloud-search-core
-
 **Usage**
 ```js
-var scSearch = new require("soudcloud-search-node")("YourClientID");
+var scSearch = new require("soudcloud-search-core")("YourClientID");
 
 scSearch.tracks("<query(string)>", <limit(number)>, resoults => {
   // resoults is array of objects including info about tracks found
