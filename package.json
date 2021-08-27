@@ -1,6 +1,6 @@
 {
-  "name": "soudcloud-search-core",
-  "version": "1.0.0",
+  "name": "soundcloud-search-core",
+  "version": "1.0.1",
   "main": "index.js",
   "keywords": ["soudcloud", "soudcloud-search", "search"],
   "author": "EPXOL",
