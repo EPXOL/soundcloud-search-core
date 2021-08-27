@@ -4,5 +4,8 @@
   "main": "index.js",
   "keywords": ["soudcloud", "soudcloud-search", "search"],
   "author": "EPXOL",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "request": ""
+  }
 }
