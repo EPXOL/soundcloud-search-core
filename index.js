@@ -22,7 +22,7 @@ class Search {
                         throw Error("Error on parsing body into JSON");
                     }
                     resoults = json.collection.filter(e => e.kind == "track").splice(0, limit);
-                    callback||resolve(resoults);
+                    (callback||resolve)(resoults);
                 }
             })
         })
@@ -47,7 +47,7 @@ class Search {
                         throw Error("Error on parsing body into JSON");
                     }
                     resoults = json.collection.filter(e => e.kind == "playlist").splice(0, limit);
-                    callback||resolve(resoults);
+                   (callback||resolve)(resoults);
                 }
             })
         })
@@ -72,7 +72,7 @@ class Search {
                         throw Error("Error on parsing body into JSON");
                     }
                     resoults = json.collection.filter(e => e.kind == "user").splice(0, limit);
-                    callback||resolve(resoults);
+                   (callback||resolve)(resoults);
                 }
             })
         })
@@ -97,7 +97,7 @@ class Search {
                         throw Error("Error on parsing body into JSON");
                     }
                     resoults = json.collection.filter(e => e.kind !== "user").splice(0, limit);
-                    callback||resolve(resoults);
+                   (callback||resolve)(resoults);
                 }
             })
         })
@@ -122,7 +122,7 @@ class Search {
                         throw Error("Error on parsing body into JSON");
                     }
                     resoults = json.collection.splice(0, limit);
-                    callback||resolve(resoults);
+                   (callback||resolve)(resoults);
                 }
             })
         })
